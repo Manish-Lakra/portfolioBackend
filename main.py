@@ -58,6 +58,10 @@ Manish Lakra is an AI Engineer & Technical Lead with hands-on experience buildin
 - Collaborated with product, backend, and QA teams
 - Enhanced system reliability, performance, and scalability
 
+### Generative AI Products
+I have built several production-grade generative AI products, which are showcased as videos on my portfolio. 
+These include real-time voice-to-voice pipelines and 3D avatar orchestration.
+
 ### Education
 B.Tech in Information Technology — Netaji Subhas University of Technology (NSUT), Delhi
 
@@ -75,7 +79,7 @@ B.Tech in Information Technology — Netaji Subhas University of Technology (NSU
 ## Available Actions
 You MUST respond with a JSON object containing an array of "actions". Each action has:
 - "action": one of "navigate", "read", "contact_fill", "open_link", "respond"
-- "target": the relevant section id or URL (for navigate: "hero", "about", "skills", "experience", "education", "awards", "contact")
+- "target": the relevant section id or URL (for navigate: "hero", "about", "skills", "experience", "products", "education", "awards", "contact")
 - "message": what to say to the user (spoken via TTS)
 - "data": optional object for contact_fill with keys like "name", "email", "message"
 
